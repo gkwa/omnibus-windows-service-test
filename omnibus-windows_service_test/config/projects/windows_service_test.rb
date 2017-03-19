@@ -20,9 +20,14 @@ dependency "preparation"
 
 # windows_service_test dependencies/components
 # dependency "somedep"
+dependency "windows_service_plus"
 
 # Version manifest file
 dependency "version-manifest"
 
 exclude "**/.git"
 exclude "**/bundler/git"
+
+package :msi do
+	upgrade_code '06aa25eb-8dba-43ee-9c08-fdce0e916f92'
+end
