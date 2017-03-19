@@ -4,7 +4,7 @@
 # All Rights Reserved.
 #
 
-name "windows_service_test"
+name "windowsservicetest"
 maintainer "CHANGE ME"
 homepage "https://CHANGE-ME.com"
 
