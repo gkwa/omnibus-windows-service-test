@@ -5,8 +5,8 @@
 #
 
 name "windowsservicetest"
-maintainer "CHANGE ME"
-homepage "https://CHANGE-ME.com"
+maintainer "Taylor Monacelli"
+homepage "https://github.com/TaylorMonacelli/omnibus-windows-service-test"
 
 # Defaults to C:/windows_service_test on Windows
 # and /opt/windows_service_test on all other platforms
